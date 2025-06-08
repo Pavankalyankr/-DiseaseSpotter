@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Flask
+instance/
+.webassets-cache
+
+# PyTorch
+*.pth.tar
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads (optional - keep local uploads but don't commit them)
+uploads/*.jpg
+uploads/*.png
+uploads/*.jpeg
+
+# Logs
+*.log
+
+# Environment variables
+.env
